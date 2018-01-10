@@ -1,0 +1,68 @@
+img#email {
+	max-height: 2em;
+}
+
+html,body{
+	background-color: #C4DBE0;
+}
+
+#content_main{
+	background-color: white;
+	width: 1000px;
+	box-shadow: 0px 3px 10px #a4bBd0; 
+	margin:auto;
+	margin-top: 32px;
+	padding:16px;
+}
+
+.tabbed{
+	margin-left: 32px;
+}
+
+.tabspan{
+	margin-left: 32px;
+}
+
+.faded{
+	color:gray;
+}
+
+h3{
+	color:#0079a1;
+}
+
+.spaceontop{
+	margin-top: 8px;
+}
+#logodiv{
+	float:right;
+}
+
+#logodiv img{
+	width:500px;
+	margin-top: 40px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.tt {
+	font-family: "Ubuntu Mono", "Lucida Console", "monospace";
+}
+
+.holiday {
+	font-weight: bold;
+	color: red;
+}
+
+.due {
+	font-weight: bold;
+	color: orange;
+}
+
+.learning-goals {
+	font-weight: bold;
+	color: green;
+	text-transform: uppercase;
+}
