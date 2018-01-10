@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <title>CSCI 274 - Intro to Linux</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css"
+            href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+</head>
+<body>
+	<div id="content_main">
+		<div class="page-header">
+			<h1>CSCI 274 - Intro to Linux</h1>
+		</div>
+		
+		<a href="../Syllabus/syllabus.pdf"
+			target="_blank"><button class="btn btn-danger">View
+				Syllabus</button></a>
+		<a href="https://piazza.com/"
+			target="_blank"><button class="btn
+				btn-info">Piazza</button></a>
+		<a href="../Learning_Goals/all-learning-goals.txt"
+			target="_blank"><button class="btn
+				btn-success">Learning Goals</button></a>
+		<h3>Schedule <small style="font-size:50%;">Subject To Change</small></h3>
+		<p>Remember to check Piazza often! You can even
+			post <span class="italic">anonymously</span> if you have
+			questions or comments!</p>
+		
+		<ul>
+			<li>Week 1</li>
+			<ul>
+				<li><a href="../Lecture_Notes/01_lecture1.pdf" target="blank">Lecture Slides</a> </li>
+				<li><a href="../Assignments/chooseEditor.txt" target="blank">Choose Editor Assignment Description</a></li>
+				<li>Review Syllabus and Introduce Course</li>
+				<li>Online Documentation: <span class="tt">apropos, man</span></li>
+				<li>The Editor War - <span class="tt">vim</span> or <span class="tt">emacs</span>?</li>
+			</ul>
+
+			<li>Week 2</li>
+			<ul>
+				<li>Interacting with the Command Line:
+					<span class="tt">pwd, ls, cd, cat, less, export, alias, echo<span></li>
+				<li>Start a <span class="tt">CHEATSHEET.LNX</span> File for Notes</li>
+				<li>Working with Remote Machines:
+					<span class="tt">ssh, scp, </span>
+					<a href="../Lecture_Notes/02_putty_tutorial.pdf" target="blank">PuTTY</a>
+				</li>
+			</ul>
+
+			<li>Week 3</li>
+			<ul>
+				<li>UNIX Style Filesystems:
+					<span class="tt">touch, mkdir, rmdir, rm, cp, mv, find</span></li>
+				<li>Filesharing:
+					<span class="tt">wget, tar</span></li>
+				<li>Example tarball: <a href="../misc/example.tar.bz">example.tar.bz</a></li>
+			</ul>
+		
+			<li>Week 4</li>
+			<ul>
+				<li><a href="../Assignments/submit-cheatsheet.txt" target="blank">CHEATSHEET.LNX Initial Submission Description</a></li>
+				<li>Interrogating Files:
+					<span class="tt">wc, file, df, du, stat</span></li>
+				<li>I/O Actions:
+					<span class="tt">echo, read, &lt;, &gt;, &gt;&gt;, /dev/null</span></li>
+			</ul>
+
+			<li>Week 5</li>
+			<ul>
+				<li><a href="../Assignments/unix-history.txt" target="blank">UnixHistory.sh Assignment Description</a></li>
+				<li><a href="http://tldp.org/LDP/abs/html/"><span class="tt">bash</span> Scripting</a>: Example <a href="../misc/shell-dessert.sh">shell-dessert.sh</a></li>
+				<li>Variables, Wildcards, Special Characters, and Quoting</li>
+			</ul>
+		
+			<li>Week 6</li>
+			<ul>
+				<li>Loop Constructs: <span class="tt">while-do-done</span> (<a href="../misc/tlw.sh" target="blank">tlw.sh</a>)</li>
+				<li><a href="https://bash.cyberciti.biz/guide/The_exit_status_of_a_command">Exit Status</a>: <span class="tt">$?</span></li>
+				<li><a href="https://ss64.com/bash/syntax-keyboard.html">Control Signals</a>: <span class="tt">CTRL-C, CTRL-D, CTRL-L, CTRL-Z, CTRL-R</span></li>
+			</ul>
+
+			<li>Week 7 (<a href="../Assignments/quoth.txt" target="blank">Quoth.sh Assignment Description</a> | <a href="../Assignments/quotes.tar.gz" target="blank">quotes.tar.gz</a>)</li>
+			<ul>
+				<li><a href="../Lecture_Notes/07_Process_Control.pdf">Process Control</a>: <span class="tt">top, ps, kill</span></li>
+				<li>Conditional Constructs: <span class="tt">test, false, true, yes, if-then-fi</li>
+			</ul>
+
+			<li>Week 8</li>
+			<ul>
+				<li>Catch - Up, If Needed</li>
+				<li>Midterm Review</li>
+			</ul>
+		
+			<li><h3>Midterm Exam</h3></li>
+			
+			<li>Week 9</li>
+			<ul>
+				<li><a href="../Assignments/title-check.txt" target="blank">TitleCheck.sh Assignment Description</a></li>
+				<li>Go Over Midterm</li>
+				<li>Pattern Centric Control Structures:
+					<span class="tt"><a href="../misc/case.sh">case-in-esac</a>, <a href="../misc/for.sh">for-do-done</a></span></li>
+			</ul>
+
+			<li>Week 10</li>
+			<ul>
+				<li><a href="../Lecture_Notes/10_CommonPipelineUtilities.pdf">Common Pipeline Utilities</a>: <span class="tt">grep, head, tail, sort, uniq, tr, cut, tee</span></li>
+				<li><a href="../Assignments/pipelining.txt">Pipeline Exercises</a></li>
+				<li><a href="../Assignments/pipeline_data.csv">Pipeline Exercises Data</a></li>
+			</ul>
+		
+			<li>Week 11</li>
+			<ul>
+				<li>Files, Hidden Files</li>
+				<li><a href="../misc/makefiles.tar.gz">Makefiles and <span class="tt">make</span></a></li>
+			</ul>
+
+			<li>Week 12</li>
+			<ul>
+				<li><a href="../Assignments/lite-lifting.txt" target="blank">LiteLifting.sh Assignment Description</a></li>
+				<li><a href="../Lecture_Notes/12_sed.pdf">Stream Editing</a>: <span class="tt">sed</span></li>
+			</ul>
+
+			<li>Week 13</li>
+			<ul>
+				<li><a href="../Lecture_Notes/13_permissions.pdf">Identity, Ownership, and Permissions</a></li>
+				<li class="tt">chmod, chown, id, users, who, newgrp, sudo, chgrp, sg, su, umask</li>
+			</ul>
+		
+			<li>Week 14</li>
+			<ul>
+				<li> <a href="../Lecture_Notes/14_Inodes_and_Linking.pdf">Inodes and Linking</a> </li>
+			</ul>
+
+			<li><h3>Final Exam</h3></li>
+		
+		</ul>
+		
+	</div>
+
+</body></html>

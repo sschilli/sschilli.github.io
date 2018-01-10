@@ -1,0 +1,68 @@
+==============================================================================================
+=					Week One					     =
+==============================================================================================
+Know how the apropos command is useful in searching the system's online help (the word apropos can be defined as "very appropriate to a particular situation").
+Know what the man command does and why it is useful
+Understand what the cd command does and what the differences are in running cd (with no arguments), cd -, and cd with an arbitrary path
+Understand the difference between a relative and absolute path in the linux filesystem
+Understand the meanings of /, ., and .. in terms of paths
+Understand what the ls command does along with it's -a, -R, and -l options
+Understand what the cat and less commands do and be able to briefly explain their differences/similarities
+Understand what the export and alias commands do and be able to briefly explain their differences/similarities
+Understand what the pwd command does and the concept of a "working directory"
+Understand what the echo command does along with it's -n option
+
+Understand the information displayed in the default prompt on Ubuntu, for example:
+	cjohnso0@bb136-11:~/linux$	
+	This prompt says I have a shell running on Host ______ as User ______ and my working directory is _________?
+
+Know that ssh allows for running a shell on a remote machine. Be able to explain, in words, what a command like this is saying:
+	$ ssh cjohnso0@gc297-01.mines.edu
+
+Know the mkdir command and it's option -p
+Know the rmdir command and the constraints for it's usage
+Know the rm command and it's options -r and -f
+
+Know the find command along with it's options -type and -name
+Know the cp command and it's option -r
+Know the mv command and it's options -f, -n, and -i
+Know the touch command
+
+Be aware that the mount command exists
+Be able to describe the purpose of the wget, tar, and scp commands
+
+What editor keystroke deletes from the cursor position to the end of the line? Not the whole line!
+What editor keystroke jumps the cursor to the beginning of a line? To the end of a line?
+What editor keystroke(s) let you copy, delete, and paste a select region of lines in a file?
+What editor keystroke(s) let's you save the current file buffer to disk?
+What keystrokes exit your editor with saving a file?
+What keystrokes exit your editor without saving the file?
+What keystrokes allow you to select a region of text (multiple lines) for copying or deleting?
+
+==============================================================================================
+=					Week Two					     =
+==============================================================================================
+Know the wc command and its options -w and -l
+Know the file command and its purpose
+
+Know that the du, df, and stat commands exist
+
+Know the read command and its purpose
+Know the input and output redirection operators <, >, and >>
+Know that /dev/null is a special file to which you redirect "garbage" output
+
+Know the bash command along with its options -x and -e for running bash scripts
+
+Know the special meanings of the characters/wildcards ?, *, [set], and [!set]
+Know the special meanings of the $ and ~ characters
+
+Understand quoting rules with single quotes, double quotes, and no quotes. What
+does the shell do in each scenario when it sees special characters (like * or $)?
+
+Be able to trace through simple shell scripts like the shell-dessert.sh explained in class
+
+Your editor (vim or emacs) allows you to quickly display the contents of a man
+documentation page in inside your editor. What is this magical keystroke(s) for
+your editor?
+
+For the editor of your choice, what keystroke or keystrokes auto-complete words or variable names?

@@ -1,0 +1,68 @@
+Know the bash command for running bash scripts
+Know how the apropos command is useful in searching the system's online help (the word apropos can be defined as "very appropriate to a particular situation").
+Know what the man command does and why it is useful. You will get terminal time. 
+
+Know how to reference command line arguments in bash scripts (e.g., what is $1, $2, ..., $@?)
+Know the input and output redirection operators <, >, and >>
+Know that /dev/null is a special file to which you redirect "garbage" output
+Understand what the pwd command does and the concept of a "working directory"
+Understand what the echo command does along with it's -n option
+
+Command: ls and its options -a, -R, -1, -l (and be able to read the man page for others, if needed)
+
+EDITOR QUESTION
+===============
+For the editor of your choice, what keystroke or keystrokes auto-complete words or variable names?
+For the editor of your choice, what keystroke or keystrokes allow you to run FIND and REPLACE type text substitutions on your entire buffer?
+What editor keystroke jumps the cursor to the beginning of a line? To the end of a line?
+What editor keystroke(s) let you copy, delete, and paste a select region of lines in a file?
+
+FILE PERMISSIONS AND METADATA
+=============================
+Command: chmod and its option -R
+Command: chown and its option -R
+umask
+sudo and su
+Know the "3x3" nature of Unix permissions --- what do the mnemonics r, w, and x mean?
+How are permissions related to the octal (base 8) number system?
+What advantage do the symbolic specifications such as -w and +x have in chmod?
+Know how to tell what permissions the user, group, and others have for a particular file
+
+PIPELINES AND COMMON PIPELINE UTILITIES
+=======================================
+Know how to specify a search-and-replace operation in sed (s/Harry/Sally/)
+
+Command: sed and its options -e, -i, and -n
+Know the s(ubstitute), p(rint), and d(elete) transformations available with sed
+How does the g modifier affect the result of s/Harry/Sally/g?
+Know how to specify line number scope in sed (1~2d or 5p or 1,3s/Harry/Sally/)
+What does the d sed command do, as in sed 5,8d
+
+Command: cut and its options -d, -c and -f
+Command: grep and its options -l, -v, -e
+Command: head and its -n option; note that head -n 3 is the same as head -3
+Command: tail and its -n option; note that tail -n 3 is the same as tail -3
+Command: sort and its options -n, -k, and -t
+Command: uniq (note the connection to sort) and uniq -c
+Command: tr and its option -d
+Command: wc and its options -w and -l
+Command: cat
+
+UNDERSTAND HOW PIPELINES IN *NIX WORK!!!!! For example, explain what each of the following would do:
+	apropos word | grep "count"
+	cat file.txt | tr '\n' ' ' | wc -l
+	sort < file.txt | uniq | head -3 | sed 's/FIND/REPLACE/'
+	sort < file.txt | uniq | head -3 | cut -c 1
+	sort < file.txt | uniq | head -3 | cut -c 1 | tr 'ABC' '123'
+
+PROCESS CONTROL
+===============
+Know how to use ps or top to find the PID of a runaway process
+Know how to use the kill command and its option -TERM
+
+LINKING
+=======
+Be able to use stat to count the number of hard links to a particular inode.
+Be able to discuss the differences between hard and soft links
+Know the ln command and the -s option
+Have a good conceptual understanding of inodes, filesystem entities, and links. 

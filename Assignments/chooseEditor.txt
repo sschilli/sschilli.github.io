@@ -1,0 +1,56 @@
+=================================
+= Assignment - Choose an Editor =
+=================================
+
+Description
+===========
+In class, we briefly introduced the vim and emacs editors. Now, you've got to
+pick (at least) one to get familiar with.
+
+You must fill out this form     https://goo.gl/forms/9tV6xQSEfbgPZ3hp1
+
+It will ask:
+    1. Which editor you have chosen for the course
+    2. For an explanation of why you chose that editor
+    3. For a link to a "cheatsheet" you will use to help
+        learn the editor throughout the course
+
+The editor you choose to learn in this course must have all of the following features:
+    1. It must be able to run (with all of these features) in a terminal
+        (or "console") window, which is to say "non-GUI mode."
+    2. You must be able to "script" or automate the editor.
+    3. It must be able to run make (this is a program building command in
+        Unix, see man 1 make) and follow compiler formatted error messages.
+    4. It must support syntax highlighting.
+    5. It must support search and replace based on regular expressions.
+    6. It must support a visual differencing mode between two files. 
+
+There are at least two Linux editors that support all of these features: vim or Emacs.
+
+If you would like to learn a different editor for the course, find where in its
+documentation each of the required features is described and send this
+information to the course instructor for review. Your instructor will let you
+know if it is acceptable.
+
+Hints
+====
+---- Experimenting with the Editor Candidates ----
+vim and emacs are two very different interfaces for editing files. How can you choose between the two? Try this:
+    First, read up a little on both. Wikipedia has relatively good articles on both.
+
+    Next, find online tutorials for both (use a favorite search engine).
+    Pick either one to begin with and work through its tutorial for 10 minutes
+
+    At the end of 10 minutes, switch tutorials and work through the other one for 10 minutes
+    Repeat this task-switching between tutorials until you begin to lean toward one or the other as your preferred editor 
+
+Helpful Links
+=============
+The vim project has their homepage here: http://www.vim.org/
+The emacs project has their homepage here: http://www.gnu.org/s/emacs
+
+Rubric
+======
+[5 pts] Selecting an Approved Editor
+[5 pts] Explanation of Editor Choice (grammar, spelling, etc. matter)
+[5 pts] Linked Cheatsheet
