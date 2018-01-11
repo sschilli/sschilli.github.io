@@ -27,7 +27,7 @@ Optionally, the editor you choose may have the following features:
         Unix, see man 1 make) and follow compiler formatted error messages.
     3. It may support a visual differencing mode between two files. 
 
-There are at least two Linux editors that support all of these features: vim or Emacs.
+There are at least two Linux editors that support all of these features: vim and Emacs.
 
 If you would like to learn a different editor for the course, find where in its
 documentation each of the required features is described and send this
