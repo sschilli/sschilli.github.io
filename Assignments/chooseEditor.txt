@@ -18,12 +18,14 @@ It will ask:
 The editor you choose to learn in this course must have all of the following features:
     1. It must be able to run (with all of these features) in a terminal
         (or "console") window, which is to say "non-GUI mode."
-    2. You must be able to "script" or automate the editor.
-    3. It must be able to run make (this is a program building command in
+    2. It must support syntax highlighting.
+    3. It must support search and replace based on regular expressions.
+
+Optionally, the editor you choose may have the following features:
+    1. You may be able to "script" or automate the editor.
+    2. It may be able to run make (this is a program building command in
         Unix, see man 1 make) and follow compiler formatted error messages.
-    4. It must support syntax highlighting.
-    5. It must support search and replace based on regular expressions.
-    6. It must support a visual differencing mode between two files. 
+    3. It may support a visual differencing mode between two files. 
 
 There are at least two Linux editors that support all of these features: vim or Emacs.
 
