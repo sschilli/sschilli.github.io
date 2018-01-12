@@ -1,0 +1,55 @@
+NOTE: For the following steps to work, you be on the Mines network. If you want
+      to SSH or use pscp from home, make sure you are connected to the Mines
+      VPN network before attempting.
+
+To SSH onto one of the Linux servers on campus through PuTTY, do the following:
+
+    1. Open PuTTY.
+
+    2. In the "Host Name" field, enter:
+
+        <username>@<host_name>
+
+       Where <username> is your Mines username and <hoste_name> is either 
+       isengard.mines.edu or imagine.mines.edu.
+
+    3. Make sure the port number is 22 and the connection type is SSH.
+       These should already be the default settings.
+
+    4. If you would like to save this session so you can SSH later without
+       retyping your username/server, type something in the Saved Sessions
+       field (like "Isengard" or "Imagine") and then click Save. You can
+       later double click on the session name you gave to automatically
+       SSH to the servers.
+
+    5. Click Open.
+
+To copy a file from a Linux server to a local Windows machine using pscp, do
+the following:
+
+    1. Open Command Prompt.
+
+    2. Run the command:
+
+        pscp <username>@<host_name>:<path_to_remote_file> <local_destination>
+
+        <username>            - your Mines username
+        <host_name>           - the host name of the server you are copying from, 
+                                in this case either isengard.mines.edu or 
+                                imagine.mines.edu
+        <path_to_remote_file> - the path to the file you want to copy from the
+                                Linux server. Use the "pwd" command to find the
+                                full path of your current working directory 
+                                (pscp does not support using the ~ to reference
+                                your home directory)
+        <local_destination>   - the path where you want to copy the file to your
+                                local machine
+
+    3. Enter your password when prompted and hit enter. If successfull, the file
+       should now appear on your local machine at the location you specified.
+
+For example, say I am copying the file "test.txt" from my home directory
+("/u/ca/dc/sschilli") on the Isengard server ("isengard.mines.edu") to 
+the root of my Z drive ("Z:\"). Then I would run the following command:
+
+    pscp sschilli@isengard.mines.edu:/u/ca/dc/sschilli/test.txt Z:\
