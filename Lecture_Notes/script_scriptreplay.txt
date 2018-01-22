@@ -1,0 +1,22 @@
+The script and scriptreplay commands are useful for recording a terminal session and
+playing it back later. To start the script, run the following command:
+
+    script --timing=<timing_file_name> <typescript_file_name>
+
+For example, the following command would record the typescript in the file week-2.out
+and would record the timing information in the file week-2.tm:
+
+    script --timing=week-2.tm week-2.out
+
+To end the script recording, either run the 'exit' command or hit Ctrl-D.
+
+To play back the script using scriptreplay, run the following command:
+
+    scriptreplay --timing <timing_file_name> <typescript_file_name>
+
+Note the lack of the '=' in this command as compared to when running the
+script command.
+
+To play back the typescript recorded with the previous command, I would run:
+
+    scriptreplay --timing week-2.tm week-2.out
