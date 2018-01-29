@@ -1,0 +1,10 @@
+To use the wget command, simply issue the command:
+
+    wget <url>
+
+Where <url> is the URL of the source you want to get.
+
+To try it out, try downloading the example archive on
+the course website:
+
+    wget https://sschilli.github.io/misc/example.tar.gz
