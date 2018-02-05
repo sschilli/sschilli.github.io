@@ -4,13 +4,11 @@
 
 To make sure you are keeping up with your CHEATSHEET.LNX note file, you will
 submit the current version of your file. This will give us an opportunity to
-give feedback before the final (more subjective) grading of the file at the end
-of the course.
+give feedback before use on the midterm and final.
 
 Submission
 ==========
-To submit your file, simply upload it to Gradescope here:
-https://www.gradescope.com/courses/6835/assignments/23324 
+To submit your file, simply upload CHEATSHEET.LNX to Canvas.
 
 Rubric
 ======
