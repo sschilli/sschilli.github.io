@@ -10,7 +10,7 @@ To SSH onto one of the Linux servers on campus through PuTTY, do the following:
 
         <username>@<host_name>
 
-       Where <username> is your Mines username and <host_name> is either 
+       Where <username> is your Mines username and <hoste_name> is either 
        isengard.mines.edu or imagine.mines.edu.
 
     3. Make sure the port number is 22 and the connection type is SSH.
@@ -24,13 +24,8 @@ To SSH onto one of the Linux servers on campus through PuTTY, do the following:
 
     5. Click Open.
 
-    6. If this is your first time SSHing onto the server, you will be prompted
-       about adding the host fingerprint to your cache. Type 'y' and then hit Enter.
-
-    7. Enter your password.
-
 To copy a file from a Linux server to a local Windows machine using pscp, do
-the following:
+the following FROM YOUR WINDOWS MACHINE:
 
     1. Open Command Prompt.
 
@@ -49,11 +44,8 @@ the following:
                                 your home directory)
         <local_destination>   - the path where you want to copy the file to your
                                 local machine
-    
-    3. If this is your first time using pscp on this server, you will be prompted
-       about adding the host fingerprint to your cache. Type 'y' and hit Enter.
- 
-    4. Enter your password when prompted and hit enter. If successfull, the file
+
+    3. Enter your password when prompted and hit enter. If successfull, the file
        should now appear on your local machine at the location you specified.
 
 For example, say I am copying the file "test.txt" from my home directory
