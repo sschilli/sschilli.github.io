@@ -1,5 +1,5 @@
 # Display arg count and different args
-echo "I receieved $# args"
+echo "I received $# args"
 echo "Arg list: $@"
 echo "First:  $1"
 echo "Second: $2"
