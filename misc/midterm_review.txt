@@ -1,0 +1,66 @@
+Be familiar with the following topics for the midterm:
+
+Text Editors
+    
+    For your editor of choice, know the keystrokes to:
+    
+        - exit without saving
+        - save without exiting
+        - save and exit
+        - search in the file
+
+Terminal basics
+    
+    - Understand the bash prompt and what each piece of information means
+    - Simple file navigation (cd, ls, pwd, mkdir, mv, cp, cat, etc)
+    - Know the meaning of ~, ., and ..
+    - The importance of capitalization
+
+Common Command Options
+
+    - ls and its -a and -l options
+    - cp and its -r option
+    - wc and its -c, -w, and -l options
+    - rm and its -r and -f options
+    - bash and its -e and -x options
+
+Variables
+    
+    - The different ways to set and see the contents of shell variables
+    - The difference between 'single' and "double" quotes
+    - Curly braces in variables
+    - What happens when you try to echo an unset variable
+
+Wildcards
+    
+    - *, ?, and the many ways to use []
+    - What happens when a wildcard finds no matches
+    - Be able to tell what a specific wildcard will match given the files/directories in the current working directory
+
+Basic Bash scripting
+    
+    - Command line arguments
+    - Be able to describe what a simple script does
+    - Be able to write a simple script
+
+While-loops
+    
+    - How they are structured
+    - How the conditional in the loop works
+
+I/O Manipulation/Redirection
+    
+    - Using the echo command
+    - <, >, >>, 2>, 2>>, and |
+
+Misc
+
+    - Exit status
+        - What it means
+        - How to view it
+        - How it relates to loops
+    - Control signals (Ctrl-C, Ctrl-D, Ctrl-L, Ctrl-Z, Ctrl-R)
+
+
+
+
