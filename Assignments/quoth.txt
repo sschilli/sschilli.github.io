@@ -7,9 +7,10 @@ Description
 In lecture, we have now discussed processes and their exit codes, which means
 we can finally begin using branch logic (if statements) in our scripts.
 
-First, download the quotes.tar.bz2 compressed "tarball" and "unroll" it into a
-working directory. The tree should be filled with lots of Star Wars quotes in
-appropriately named directories.
+First, download the quotes.tar.gz compressed "tarball" and "unroll" it into a
+working directory (remember that you can do "tar -xzvf <tarball>" to unroll
+gzip tarball <tarball> in the current working directory). The tree should be 
+filled with lots of Star Wars quotes in appropriately named directories.
 
 Write a script, called Quoth.sh that does the following in a loop:
 	1. displays the directories in the current working directory
