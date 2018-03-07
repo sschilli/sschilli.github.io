@@ -122,7 +122,7 @@ $
 Hints
 =====
 For now you can just use ls -1 to list all of the directories (1 per line) in the current working directory
-You will need to use test or [...] inside of an if-then-fi statement in order to terminate on QUIT.
+You will need to use test or [...] inside of an if-then-fi statement or a while loop in order to terminate on QUIT.
 You will need to use ANOTHER test or [...] inside of an if-then-fi statement in order to terminate on an invalid input.
 Use cat to display the contents of the appropriate quote.txt.
 
