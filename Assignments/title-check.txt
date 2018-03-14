@@ -10,7 +10,7 @@ multiple tokens from the user with the read command.
 
 Write a script, called TitleCheck.sh that reads a title from the user and
 inspects it for appropriate capitalization. For the purposes of this
-assignment, here are the capitlization rules:
+assignment, here are the capitalization rules:
 
 1. Always capitalize the first word of the title
 2. Capitalize any other word except for the nine words:
@@ -72,8 +72,7 @@ Rubric [23 points total]
 [1 pt]  Correct submission
 
 You may use only for loops, case-esac statements, echo and read. You may not
-use command redirection (if you already know what this is, which I don't expect
-you to).
+use command redirection.
 
 Full credit may be earned only if you use one read, one for loop and one
 case-esac statement.
