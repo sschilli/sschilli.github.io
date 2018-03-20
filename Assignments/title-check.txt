@@ -39,23 +39,54 @@ $
 
 Hints
 =====
-You can echo single quotes around a variable by putting the whole phrase in double quotes, for example: echo "'${term}'"
+1. You can echo single quotes around a variable by putting the whole phrase in double quotes, for example: echo "'${term}'"
 
-You can't use {a,an,in,out,...} curly braced patterns in case statements,
-instead use | as an "alternation operator":
+2. You can't use {a,an,in,out,...} curly braced patterns in case statements,
+   instead use | as an "alternation operator":
 
-case "${token}"
-  a|an|in|out|... ) 
-      echo "Hello little word"
-      ;;
-esac
+   case "${token}"
+       a|an|in|out|... ) 
+           echo "Hello little word"
+           ;;
+   esac
 
-The example above is clearly flawed with the elipses, but I think it is enough to jog your memory about | and case.
+   The example above is clearly flawed with the elipses, but I think it is enough to jog your memory about | and case.
 
-Do use character range matches! [a-z] and [^A-Z] work in case statements!
+3. Do use character range matches! [a-z] and [^A-Z] work in case statements!
 
-The full credit solution is straight-forward algorithmic problem solving --- it
-doesn't rely on a Linux trick or specialized Unix knowledge.
+4. To differentiate whether a token is the first word in a title or not, try adding some special character or symbol
+   to the beginning of your title, e.g.,
+
+   read title
+   for token in _${title}; do
+      echo $token
+
+   If you typed in the title "a bear lives in the woods", the above would print:
+
+   _a
+   bear
+   lives
+   in
+   the
+   woods
+
+   Thus you can tell if a token is the first word of the title in your case statement
+   if it begins with _ (underscore).
+
+5. To print the first word without your special character, you can specify that you want
+   to skip the first character of the token, e.g.,
+
+   case "${token}" in 
+       _* )
+           echo "The first word is '${token:1}'"
+           ;;
+   esac
+
+   The ${token:1} returns the value of the token string starting at index 1 (the second
+   character) instead of index 0 (the first character).
+
+6. The full credit solution is straight-forward algorithmic problem solving --- it
+   doesn't rely on a Linux trick or specialized Unix knowledge outside of these tips.
 
 Submission
 ==========
