@@ -106,4 +106,4 @@ You may use only for loops, case-esac statements, echo and read. You may not
 use command redirection.
 
 Full credit may be earned only if you use one read, one for loop and one
-case-esac statement.
+case-esac statement (you may use as many echo commands as you want).
