@@ -74,8 +74,8 @@ Hints
 =====
 
 This list of hints will hopefully help you understand how to get the values for
-XXX in each of the lines of output above. If you're still confused, ask on
-Piazza!
+XXX in each of the lines of output above. If you're still confused, you can send
+me an email!
 1. wc anyone?
 2. tr -d before wc ...
 3. Expensive carrot? (An empty line has no white space, no visible characters.)
