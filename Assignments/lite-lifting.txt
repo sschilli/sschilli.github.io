@@ -80,8 +80,9 @@ me an email!
 2. tr -d before wc ...
 3. Expensive carrot? (An empty line has no white space, no visible characters.)
 4. Remove newlines with tr, and characters not in 0-9a-zA-Z with sed :)
-5. Who says you can't run two seds? Slashes in the output are important (so we
-   can see an empty string versus a whitespace).
+5. We can filter lines with sed printing mode. How can we look at specific fields
+   of that line afterward?
+   Slashes in the output are important (so we can see an empty string versus a whitespace).
 
 
 Just to be clear, for the first part of processing the file, you will have a
