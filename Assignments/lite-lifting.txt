@@ -83,7 +83,10 @@ me an email!
 5. We can filter lines with sed printing mode. How can we look at specific fields
    of that line afterward?
    Slashes in the output are important (so we can see an empty string versus a whitespace).
-
+6. Try replacing all newlines in the file with empty spaces before using grep, to capture
+   the phrase split across two lines.
+   You can use the exit status of the grep command directly (it exits with 0 if a match
+   is found, 1 otherwise). Also, the -q option can be used to suppress the grep output.
 
 Just to be clear, for the first part of processing the file, you will have a
 separate pipeline for each of these questions. You are not expected to
@@ -98,8 +101,8 @@ The first thing you should do is type up a file to test with! Then tackle these
 one at a time --- we've tried to list them in order of complexity, and some
 might build on the others.
 
-The 4th word of the 3rd line can be tricky, know that you can specify line
-number scope for sed operators (eg: -e 3,4s/Harry/Sally/).
+The 4th word of the 3rd line can be tricky, know that you can print a specific
+line with sed (e.g., sed -n 3p).
 
 Submission
 ==========
