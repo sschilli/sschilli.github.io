@@ -1,0 +1,67 @@
+CSCI274 - Intro to Linux - Final Exam Review Guide
+
+Be familiar with the following topics for the final:
+
+Text Editors
+    
+    For your editor of choice, know the keystrokes to:
+    
+        - exit without saving
+        - save without exiting
+        - save and exit
+        - search in the file
+
+Terminal basics
+    
+    - Simple file navigation (cd, ls, pwd, mkdir, mv, cp, cat, etc)
+    - Know the meaning of ~, ., and ..
+    - Know the difference between relative and absolute paths
+
+Basic Bash scripting
+    
+    - Command line arguments ($1, $2, etc)
+    - Be able to describe what a simple script does
+    - Be able to write a simple script
+
+I/O Manipulation/Redirection
+    
+    - Using the echo command
+    - <, >, >>, 2>, 2>>, and |
+    - What /dev/null is used for
+
+Pipelining
+
+    - grep and its options -e, -v, and -c
+    - head and how to print the first n lines
+    - tail and how to print the last n lines
+    - sort
+    - uniq and how it only removes consecutive duplicate lines
+    - tr and its uses for translation or deletion (with -d)
+    - cut and its options -c, -d, and -f
+    - sed substitutions (including global, e.g., 's/hello/goodbye/g')
+    - wc and its options -l, -m, and -w
+    - Interpret pipelines that combine all of the above commands
+
+Permissions
+    - chmod
+        - how to specify permissions using octal digits, e.g., 741
+        - how to specify permissions directly, e.g., u=rwx,g=r,o=x
+        - the -R option
+    - Identify permissions, owners, and groups from ls -l output
+    - Understand how umask affects default permissions of new files and directories
+
+Inodes/Linking
+    - Determine link information (number of hard links, whether a file is a soft link, etc) 
+      based on ls -l or stat output
+    - Know the differences between hard links and soft/symbolic links
+    - ln and its -s option
+
+Misc
+
+    - Exit status
+    - How to kill a process by its pid (process id)
+      HINT: Look at question 6 on the practice exam
+
+
+
+
